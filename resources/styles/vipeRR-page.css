@@ -1,5 +1,5 @@
 .cover {
-    background-image: url('/resources/images/vipeRR-images/cover.png');
+    background-image: url('resources/images/vipeRR-images/cover.png');
     height: 100vh;
     width: 1920px;
     background-size: cover;
