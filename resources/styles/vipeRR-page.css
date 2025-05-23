@@ -1,0 +1,90 @@
+.cover {
+    background-image: url('/resources/images/vipeRR-images/cover.png');
+    height: 100vh;
+    width: 1920px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: var(--header-height);
+}
+
+.cover-img {
+    mix-blend-mode: overlay;
+    height: 90.6%;
+}
+
+.about-singers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-singers-content {
+    display: grid;
+    height: 936px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin: 72px 0;
+}
+
+.about-singers-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.grid-headers {
+    font-size: 40px;
+    transform: scaleX(1.8);
+    transform-origin: left;
+    margin-bottom: 10px;
+}
+
+.heavy-metal2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heavy-metal2-content {
+    display: grid;
+    height: 936px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    margin: 72px 0;
+}
+
+.heavy-metal2-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* .heavy-metal2-item img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+} */
+
+.tracklist {
+    grid-area: 1 / 3 / 3 / 4;
+    /* 1st row, 3rd column, 3th row, 3rd column */
+}
+
+.gosha {
+    grid-area: 2/1/3/3;
+}
+
+.asd {
+    max-width: 100%;
+    height: auto;
+    /* Сохраняем пропорции */
+}
