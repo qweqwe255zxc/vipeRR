@@ -9,7 +9,8 @@
 ## 🧱 Стек технологий
 
 - HTML5
-- CSS3 (в том числе кастомные шрифты и переменные)
+- CSS3
+- JavaScript
 - Google Fonts: [Roboto](https://fonts.google.com/specimen/Roboto), [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed)
 
 ## 🖼️ Основные разделы сайта
